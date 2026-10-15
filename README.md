@@ -87,6 +87,13 @@ python check-expiry.py --live
 | `install-windows.ps1` | 上游的单账号安装脚本（备用） |
 | `docs/使用说明.md` | 完整操作说明 |
 
+## 顺带：Qoder 的每日 Credits
+
+同一台机器上如果还装着 Qoder 桌面端，可以用 [`qoder/`](qoder/) 目录下的一套东西，
+按同样的思路挂到计划任务里无人值守领取 —— 同样无窗口、同样不用管。
+
+细节见 [qoder/README.md](qoder/README.md)。
+
 ## 关于凭据
 
 - 快照只写入本机 `creds\` 目录，**不会上传到任何地方**
