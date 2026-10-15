@@ -1,0 +1,25 @@
+# --- 账号快照与日志：绝对不要提交 ---
+creds/
+*.info
+*.json
+*.log
+
+# --- 本机路径记录 ---
+pythonw.path
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# --- 系统 ---
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# --- 编辑器 ---
+.vscode/
+.idea/
+*.swp
